@@ -11,7 +11,7 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "npm"
-    versioning-strategy: "auto"
+    versioning-strategy: "increase"
 
   - package-ecosystem: "pipx"
     directory: "/"
@@ -19,7 +19,7 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "pipx"
-    versioning-strategy: "auto"
+    versioning-strategy: "increase"
       
   - package-ecosystem: "pip"
     directory: "/"
@@ -27,4 +27,4 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "pip"        
-    versioning-strategy: "auto"
+    versioning-strategy: "increase"
