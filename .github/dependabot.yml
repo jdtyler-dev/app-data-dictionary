@@ -9,6 +9,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    allow:
+      - dependency-type: "all"
     commit-message:
       prefix: "npm"
     versioning-strategy: "increase"
@@ -17,6 +19,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    allow:
+      - dependency-type: "all"
     commit-message:
       prefix: "pipx"
     versioning-strategy: "increase"
@@ -25,6 +29,18 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    allow:
+      - dependency-type: "all"
     commit-message:
       prefix: "pip"        
+    versioning-strategy: "increase"
+    
+   - package-ecosystem: "yarn"
+     directory: "/"
+     schedule:
+       interval: "weekly"
+    allow:
+       - dependency-type: "all"
+    commit-message:
+       prefix: "yarn"        
     versioning-strategy: "increase"
